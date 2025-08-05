@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container styling */
+.container {
+    width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Header */
+.header {
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2c3e50;
+}
+
+/* Form labels and inputs */
+form label {
+    display: block;
+    margin: 10px 0 0;
+    color: #34495e;
+    font-weight: 600;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    margin: 1px 10px 0 0;
+    box-sizing: border-box;
+    transition: 0.3s border-color;
+}
+
+form input[type="text"]:focus {
+    border-color: #2980b9;
+    outline: none;
+}
+
+/* Submit button */
+form input[type="submit"] {
+    margin-top: 20px;
+    width: 100%;
+    background: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s background-color;
+}
+
+form input[type="submit"]:hover {
+    background: #1c5980;
+}
+
+/* Table styles */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eaeaea;
+}
+
+table th {
+    background: #2980b9;
+    color: white;
+    font-weight: 600;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+
+    table {
+        width: 100%;
+    }
+}

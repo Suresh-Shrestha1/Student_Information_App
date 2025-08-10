@@ -184,11 +184,16 @@ Want to practice more? Try adding these features:
 ## 📸 Screenshots
 
 > 💡 Add screenshots to make your project visually appealing:
-- Add Form (index.php)
+- **Add Form (index.php)**
+  
 ![Form.png](assets/Form.png)
-- Student List (data.php)
+
+- **Student List (data.php)**
+  
 ![List](assets/List_student.png)
-- After Delete Action
+
+- **After Delete Action**
+  
 ![Delete](assets/After_delete.png)
 
 ---

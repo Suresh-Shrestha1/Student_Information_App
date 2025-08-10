@@ -43,3 +43,32 @@ Before running this app, make sure you have the following installed:
 - ✅ Basic knowledge of how to run PHP files on localhost
 
 ---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Start XAMPP
+
+- Open **XAMPP Control Panel**.
+- Start both **Apache** and **MySQL** modules.
+
+### 2️⃣ Create the Database
+
+1. Open your browser and go to [http://localhost/phpmyadmin](http://localhost/phpmyadmin).
+2. Click **New** in the sidebar to create a new database.
+3. Enter `student` as the database name and click **Create**.
+4. Inside the `student` database, go to the **SQL** tab and paste the following code:
+
+    ```sql
+    CREATE TABLE info (
+        Roll INT PRIMARY KEY,
+        Name VARCHAR(100),
+        Address VARCHAR(255),
+        Gender VARCHAR(10),
+        Class VARCHAR(50),
+        Faculty VARCHAR(100),
+        Mobile VARCHAR(10)
+    );
+    ```
+5. Click **Go** to execute the SQL query.
+
+---

@@ -147,3 +147,36 @@ Fetches data from the database using SQL `SELECT` and shows it in a table.
 Deletes a student by their Roll No using SQL `DELETE`.
 
 ---
+
+## 🧪 Troubleshooting
+- ❗ If your PHP files don't run, make sure:
+    - Apache and MySQL are running
+    - Files are placed in the correct htdocs folder
+    - You're accessing the correct URL in your browser
+
+- ❗ If the database connection fails:
+    - Check your credentials in db.php
+    - Make sure the database name is correct
+    - Ensure the database is accessible from your PHP script
+    
+---
+
+## 🧠 Ideas to Expand This Project
+Want to practice more? Try adding these features:
+- ✏️ Update/Edit student records
+- 🔍 Search functionality (by name, class, etc.)
+- 🧾 Pagination for the student list
+- 📥 Export records to CSV or PDF
+- 🔒 Login system to restrict access
+- ✅ Form validation (required fields, phone number format)
+- 🛡️ Use Prepared Statements to prevent SQL Injection
+
+---
+
+## 📝 Notes
+
+- Make sure your database credentials in `db.php` match your MySQL setup.
+- This app does not include advanced validation or security (for learning purposes only).
+- For any issues, restart Apache and MySQL from XAMPP.
+
+---

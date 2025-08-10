@@ -26,3 +26,20 @@ By building and running this project, you’ll gain experience with:
 - Understanding how CRUD operations work in web apps
 
 ---
+
+## 🧰 Technologies Used
+- Frontend: HTML, CSS
+- Backend: PHP
+- Database: MySQL
+- Local Server: XAMPP (Apache + MySQL)
+
+---
+
+## 📦 Prerequisites
+
+Before running this app, make sure you have the following installed:
+- ✅ [XAMPP](https://www.apachefriends.org/) or any local server with PHP and MySQL
+- ✅ A web browser (like Chrome, Firefox, Edge)
+- ✅ Basic knowledge of how to run PHP files on localhost
+
+---

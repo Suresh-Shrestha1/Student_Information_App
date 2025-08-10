@@ -97,3 +97,53 @@ Student Information App/
 ```
 
 ---
+
+## 🧑‍🏫 How to Use
+
+### ➕ Add a New Student
+
+1. **Open your browser** and go to:  
+   [http://localhost/Student%20Information%20App/index.php](http://localhost/Student%20Information%20App/index.php)
+
+2. **Add a Student:**  
+   - Fill in the form:
+        - **Roll No** (must be unique)
+        - **Name**
+        - **Address**
+        - **Gender** (e.g., Male/Female/Other)
+        - **Class**
+        - **Faculty**
+        - **Mobile Number**
+
+3. **Save Data:**
+    - Click **Save**. If successful, you’ll be redirected or shown a success message.
+
+### 📄 View All Students
+- **Open your browser** and go to or visit:
+     [http://localhost/Student%20Information%20App/data.php](http://localhost/Student%20Information%20App/data.php)
+     - You'll see a table with all student records will be displayed.
+
+### ❌ Delete a Student Record
+   - Each record in the table will have a **Delete** link.
+   - Click the link to delete that specific student.
+
+---
+
+## 🛠️ How the Code Works
+
+### 🔗 `db.php` – Database Connection
+Connects your PHP code to the MySQL database using `mysqli_connect()`. It’s included in all files that interact with the database.
+
+### 🧾 `index.php` – Add Form
+An HTML form that collects student data. It uses the `POST` method to send data to `add_data.php`.
+
+### 📥 `add_data.php` – Insert Data
+Receives data from the form and inserts it into the database using SQL `INSERT`.
+
+### 📋 `data.php` – Display Records
+Fetches data from the database using SQL `SELECT` and shows it in a table.
+
+### 🗑️ `delete.php` – Delete Records
+Deletes a student by their Roll No using SQL `DELETE`.
+
+---

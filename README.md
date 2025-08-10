@@ -180,3 +180,45 @@ Want to practice more? Try adding these features:
 - For any issues, restart Apache and MySQL from XAMPP.
 
 ---
+
+## 📸 Screenshots
+
+> 💡 Add screenshots to make your project visually appealing:
+- Add Form (index.php)
+![Form.png](assets/Form.png)
+- Student List (data.php)
+![List](assets/List_student.png)
+- After Delete Action
+![Delete](assets/After_delete.png)
+
+---
+
+## 🙏 Credits
+
+This app was created as a **learning project** to help beginners understand how PHP and MySQL work together in a web application.
+
+---
+
+## 🛡️ Disclaimer
+- This project is for educational purposes only.
+- No user authentication, form validation, or SQL injection prevention is implemented.
+- For production apps, use prepared statements and validation.
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+### Q: What is localhost?
+**A:** It’s your local computer acting as a web server. Using tools like XAMPP, you can run PHP code as if it's hosted online.
+
+### Q: Why is the database connection not working?
+**A:** Check your MySQL credentials in db.php. For XAMPP:
+- Username: root
+- Password: (empty)
+
+### Q: Can I use this project online?
+**A:** Not directly. It's built for local use only. To make it secure and production-ready, you'd need:
+- Server-side validation
+- Prepared statements
+- Authentication
+- HTTPS setup

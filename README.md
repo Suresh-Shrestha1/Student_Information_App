@@ -72,3 +72,28 @@ Before running this app, make sure you have the following installed:
 5. Click **Go** to execute the SQL query.
 
 ---
+
+### 3️⃣ Copy Project Files
+
+- Download or clone this project.
+- Copy the entire `Student Information App` folder to `C:\xampp\htdocs\`
+
+### 4️⃣ Project File Structure
+
+```
+Student Information App/
+│
+├── assets            # Screnshot photos
+│   ├── After_delete.png
+│   ├── Form.png
+│   └── List_student.png
+├── index.php         # Main page with form to add student
+├── add_data.php      # Handles form submission and inserts data
+├── data.php          # Displays all student records
+├── delete.php        # Deletes a student record
+├── db.php            # Database connection file
+├── styles.css        # CSS styles
+└── readme.md         # Documentation (This file)
+```
+
+---
